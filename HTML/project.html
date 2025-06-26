@@ -1,0 +1,60 @@
+<!-- Add a <div> element with an id of "top-8-wrapper".
+Inside, add a <h1> heading element that says "My Top Friends!", followed by two <div> elements with a class of "top-8-row".
+Inside each <div> with a "top-8-row" class, add four more <div> elements that each have a class of "friend-card".
+Inside each <div> with a "friend-card" class, add the following:
+A <h2> header element with a "friend-name" class and the friend's name inside the tags.
+An <img> image element with a src and alt attribute.-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name ="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>my space top 8</title>
+    <style>
+  body {
+    width: 85%;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  img {
+    border: 3px solid blue;
+  }
+
+  #top-8-wrapper {
+    text-align: center;
+  }
+
+  .friend-card {
+    display: inline-block;
+    margin: 1px;
+    text-align: center;
+  }
+
+  .friend-name {
+    color: blue;
+  }
+</style>
+  </head>
+  <body>
+    <div class="wrapper" id="top-8-wrapper"></div>
+    <h1>"My Top Friends!"</h1>
+    <div class="top-8-row" id="top-8"></div>
+    <div class="friend-card" id="pikachu"></div>
+    <h2>pikachu</h2>
+    <img src="https://cdn.pixabay.com/photo/2020/08/29/16/09/pikachu-5527381_1280.jpg"alt="pikachu">
+    <div class="friend-card" id="kickbuttowski"></div>
+    <h2>kickbuttowski</h2>
+    <img src="https://www.metacritic.com/a/img/catalog/provider/2/13/2-644dfad9cb5e803aa8acd4ec878aa905.jpg"alt="kick">
+    <div class="friend-card" id="shinchan"></div>
+    <h2>shinchan</h2>
+    <img src="https://img.joomcdn.net/ad9016aa4b4d6e6fe8d83ee21f7d4500755a78aa_original.jpeg"alt="shinchan">
+    <div class="friend-card" id="naruto"></div>
+    <h2>naruto</h2>
+    <img src="https://cdn.britannica.com/18/237818-004-8A8FBCA9.jpg"alt="naruto">
+  </body>
+</html>
