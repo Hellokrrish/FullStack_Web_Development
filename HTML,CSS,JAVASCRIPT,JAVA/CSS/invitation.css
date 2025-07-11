@@ -1,0 +1,22 @@
+#invite-wrapper {
+  width: 75%;
+  padding: 25px;
+  background-color: violet;
+  color: green;
+  border: 2px dashed red;
+}
+
+h1 {
+  font-family: Lobster, cursive;
+  text-align: center;
+  color : black;
+  border: 1px dotted red;
+}
+
+#invite-text {
+  width: 80%;
+}
+
+#itinerary {
+  text-align: center;
+}
