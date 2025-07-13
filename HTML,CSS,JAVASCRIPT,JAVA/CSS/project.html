@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>coffee</title>
+    <link rel="stylesheet" href="project.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <nav class : "main-nav">
+      <h1 class : "brand">
+        <img src ="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png" alt="coffee_masters_logo"
+      class : "logo"
+      />
+      COFFEE-MASTERS
+      </h1>
+    </nav>
+    <div class : "page">
+      <section class : "order-box">
+        <h2 class : "box-titled">ITEMS</h2>
+        <ul class : "items">
+          <li class :"item">
+            <div class : "item-quantity">1x</div>
+            <div class : "item-name">cappucino</div>
+            <div class : "item-price">$3.0</div>
+            <ul class : "item-options-list">
+              <li class : "item-option">Light Form</li>
+            </ul>
+          </li>
+          <li class : "item">
+            <div class : "item-quantity">1x</div>
+            <div class : "item-name">cappucino</div>
+            <div class : "item-price">$3.5</div>
+            <ul class : "item-options-list">
+              <li class :"item-option">light milk</li>
+              <li class : "item-option"> double espresso</li>
+            </ul>
+          </li>
+          <li class : "item">
+            <div class : "item-quantity">1x</div>
+            <div class : "item-name">cappucino</div>
+            <div class : "item_price">$4.5</div>  
+            <ul class : "item-options-list">
+              <li class :"item-option">butter</li>            
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class :"payment">
+        <div class : "name-boxes">
+          <h2 class : "name-box">Name</h2>
+          <div class : "input-group">
+            <label class : "user-name" for "name">Name for order</label>
+            <input id: "name" class :"user-input" type:"text">
+          </div>
+        </div>
+        <div class : "cc-box">
+          <h2 class :"box-title">PAYMENT</h2>
+          <div class : "input-group">
+            <label class : "user-input" for : "cc">card number</label>
+            <input id:"cc" class:"user-input" type:"text">
+          </div>
+          <div class : "input-group">
+            <label class : "user-input" for :"cc">CVV</label>
+            <input id:"cc" class:"user-input" type:"text">
+          </div>
+        </div>
+      </section>
+      <section class : "total">
+                  <table class="total-table">
+           <tbody>
+             <tr>
+               <td>subtotal : $11.0</td>
+             </tr>
+             <tr>
+               <td>Tax : 1%</td>
+             </tr>
+             <tr>
+               <td>Total : $12.1</td>
+             </tr>
+           </tbody>
+         </table>
+         <button class="checkout" type="button">placeorder</button>
+         </button>
+      </section>
+    </div>
+  </body>
+</html>
