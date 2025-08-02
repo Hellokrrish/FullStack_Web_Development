@@ -8,7 +8,6 @@ To calculate your weight on Mars:
 destination_weight=earth_weight×0.38*/
 
 
-// Write code below 💖
 
 const earthWeight = 210;
 const marsWeight = earthWeight * 0.38;
