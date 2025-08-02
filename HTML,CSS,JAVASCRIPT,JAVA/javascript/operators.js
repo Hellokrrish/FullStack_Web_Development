@@ -21,3 +21,20 @@ console.log(tip);     // Output: 0.796
 let fahrenheit = 68;
 temperature = (fahrenheit-32) /1.8;
 console.log(temperature);
+
+
+let score = 0;
+
+score = 2 ** 2;      // score is 4
+score = 2 ** 3;      // score is now 8
+score = 2 ** 4;      // score is now 16
+score = 2 ** 5;      // score is now 32
+
+console.log(score);  // Output: 32
+
+// Create a program that calculates your own BMI.
+
+let mass = 65;
+let height = 170;
+let bmi =mass/height**2;
+console.log(bmi);
