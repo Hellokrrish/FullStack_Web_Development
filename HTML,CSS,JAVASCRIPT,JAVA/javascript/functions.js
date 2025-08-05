@@ -16,3 +16,26 @@ const mycity ="seattle";
       console.log("your are from"${mycity},${mystate},${mycountry});
 }
 address(mycity,mystate,mycountry);
+
+
+
+ builtin_functions:
+    -> toLowerCase()
+
+    const sentence="AFKLANFKNAN";
+    const lowercasesenence = sentence.toLowerCase();
+    console.log(lowercasesentence);
+ 
+ -> toUppercse()
+
+    const sentence="ankalnkafna";
+    const uppercasesentence = sentence.toUpperCase();
+    console.log(uppercasesentence);
+
+-> Math.random()
+
+  const a =Math.random();
+
+-> Date.now()
+
+   console.log(Date.now());
